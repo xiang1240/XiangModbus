@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>ModbusMaster</id>
+		<title>ModbusMaster</title>
+		<version>1.0.1</version>
+		<authors>Eric.Qin</authors>
+		<owners>Eric.Qin</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="file">LICENSE.md</license>
+		<description>Simple Modbus protocol package, including Modbus Tcp, RTU, ASCII.</description>
+		<copyright>Copyright 2021 Eric.Qin</copyright>
+		<tags>xiangmodbus modbus master</tags>
+		<repository url="https://github.com/xiang1240/XiangModbus" />
+		<icon>XiangLogo64.png</icon>
+		<dependencies>
+			<group targetFramework=".NETStandard2.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\src\ModbusMaster\bin\Release\**\ModbusMaster.dll" target="lib\" />
+		<file src="..\LICENSE.md" target="" />
+		<file src="XiangLogo64.png" target="" />
+	</files>
+</package>
